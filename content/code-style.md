@@ -13,7 +13,7 @@ After reading this article, you'll know:
 4. Style suggestions for Meteor-specific patterns, such as Methods, publications, and more
 
 
-<h2 id="benefits-style">Benefits of consistent style</h2>
+<h2 id="benefits-stpayle">Benefits of consistent style</h2>
 
 Countless hours have been spent by developers throughout the years arguing over single vs. double quotes, where to put brackets, how many spaces to type, and all kinds of other cosmetic code style questions. These are all questions that have at best a tangential relationship to code quality, but are very easy to have opinions about because they are so visual.
 
@@ -209,7 +209,7 @@ The section above talked about JavaScript code in general - you can easily apply
 
 <h3 id="collections">Collections</h3>
 
-Collections should be named as a plural noun, in PascalCase. The name of the collection in the database (the first argument to the collection constructor) should be the same as the name of the JavaScript symbol.
+Collections should be named as a plural noun, in [PascalCase](http://c2.com/cgi/wiki?PascalCase). The name of the collection in the database (the first argument to the collection constructor) should be the same as the name of the JavaScript symbol.
 
 ```js
 // Defining a collection
